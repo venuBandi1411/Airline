@@ -1,0 +1,22 @@
+flight_id,mealPreference,loyaltyProgram,seatPreference
+1,Vegetarian,None,Window
+2,"Vegetarian","Gold","Window"
+3,Vegan,Silver,Aisle
+4,Vegetarian,SkyMiles,Window
+5,Non-Vegetarian,SkyMiles,Aisle
+6,Vegetarian,Silver,Window
+7,Non-Vegetarian,None,Exit Row
+8,Non-Vegetarian,Gold,Aisle
+9,Vegan,SkyMiles,Exit Row
+10,Vegetarian,None,Window
+11,Vegan,None,Window
+12,Non-Vegetarian,SkyMiles,Aisle
+13,Vegan,Gold,Aisle
+14,Vegetarian,SkyMiles,Exit Row
+15,Non-Vegetarian,Silver,Window
+16,Non-Vegetarian,Gold,Aisle
+17,Vegan,None,Exit Row
+18,Vegetarian,Silver,Window
+19,Vegan,SkyMiles,Aisle
+20,Vegetarian,None,Aisle
+31,"Vegetarian","Gold","Window"

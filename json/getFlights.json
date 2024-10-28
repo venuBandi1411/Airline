@@ -1,0 +1,3709 @@
+{
+    "data": {
+        "flights": {
+            "totalCount": 260,
+            "pageStart": 0,
+            "pageEnd": 9,
+            "maxResultsSize": 70,
+            "isCustomTimeReplaced": null,
+            "flightLegs": [
+                {
+                    "legId": "15/LAX-DFW/NK3710",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 8,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 8,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 1,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T23:22:00.000-07:00",
+                    "arrivalDate": "2024-10-16T04:30:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 53.99,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 53.99,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "NK3710LAXDFW10-15-2024-23:2210-16-2024-04:300",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 8,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "5",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T23:22:00.000-07:00",
+                            "arrivalDate": "2024-10-16T04:30:00.000-05:00",
+                            "percentageOnTime": 70,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 3710,
+                            "aircraft": {
+                                "code": "32N",
+                                "name": "Airbus A320NEO",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/NK3710/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 53.99,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 53.99,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "NK3710LAXDFW10-15-2024-23:2210-16-2024-04:300",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "G",
+                                    "basisCode": "GA21V2",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": false,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": true,
+                                "outOfPolicyData": [],
+                                "outOfPolicyReasons": [],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 53,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 53,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-ABQ/NK3002/ABQ-DFW/NK2392",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 40,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 4,
+                        "minutes": 40,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 1,
+                    "stops": 1,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T16:40:00.000-07:00",
+                    "arrivalDate": "2024-10-15T23:20:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": false,
+                        "outOfPolicyData": [
+                            {
+                                "type": "CONNECTIONS_BLOCKED",
+                                "data": [],
+                                "currency": null,
+                                "__typename": "OutOfPolicyData"
+                            }
+                        ],
+                        "outOfPolicyReasons": [
+                            "CONNECTIONS_BLOCKED"
+                        ],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 87.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 87.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1242,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "NK3002LAXABQ10-15-2024-16:4010-15-2024-19:250",
+                            "flightTime": {
+                                "hours": 1,
+                                "minutes": 45,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "5",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Albuquerque",
+                                "terminal": "",
+                                "code": "ABQ",
+                                "name": "Albuquerque International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T16:40:00.000-07:00",
+                            "arrivalDate": "2024-10-15T19:25:00.000-06:00",
+                            "percentageOnTime": 0,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 3002,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        },
+                        {
+                            "id": "NK2392ABQDFW10-15-2024-20:2510-15-2024-23:200",
+                            "flightTime": {
+                                "hours": 1,
+                                "minutes": 55,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Albuquerque",
+                                "terminal": "",
+                                "code": "ABQ",
+                                "name": "Albuquerque International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T20:25:00.000-06:00",
+                            "arrivalDate": "2024-10-15T23:20:00.000-05:00",
+                            "percentageOnTime": 0,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 2392,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-ABQ/NK3002/ABQ-DFW/NK2392/(2,1)(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 87.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 87.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "NK3002LAXABQ10-15-2024-16:4010-15-2024-19:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "W",
+                                    "basisCode": "WA21O1",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "NK2392ABQDFW10-15-2024-20:2510-15-2024-23:200",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "G",
+                                    "basisCode": "GA14V2",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 87,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 87,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [
+                        {
+                            "segmentId": "NK3002LAXABQ10-15-2024-16:4010-15-2024-19:250",
+                            "connectionTimeMinutes": 60,
+                            "__typename": "FlightLegConnectionInfo"
+                        }
+                    ],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-IAH/NK326/IAH-DFW/NK3724",
+                    "flightTime": {
+                        "hours": 4,
+                        "minutes": 47,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 8,
+                        "minutes": 45,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 1,
+                    "stops": 1,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T05:45:00.000-07:00",
+                    "arrivalDate": "2024-10-15T16:30:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": false,
+                        "outOfPolicyData": [
+                            {
+                                "type": "CONNECTIONS_BLOCKED",
+                                "data": [],
+                                "currency": null,
+                                "__typename": "OutOfPolicyData"
+                            }
+                        ],
+                        "outOfPolicyReasons": [
+                            "CONNECTIONS_BLOCKED"
+                        ],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 97.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 97.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1599,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "NK326LAXIAH10-15-2024-05:4510-15-2024-11:060",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 21,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "5",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Houston",
+                                "terminal": "A",
+                                "code": "IAH",
+                                "name": "George Bush Intercontinental Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T05:45:00.000-07:00",
+                            "arrivalDate": "2024-10-15T11:06:00.000-05:00",
+                            "percentageOnTime": 70,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 326,
+                            "aircraft": {
+                                "code": "32N",
+                                "name": "Airbus A320NEO",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        },
+                        {
+                            "id": "NK3724IAHDFW10-15-2024-15:0410-15-2024-16:300",
+                            "flightTime": {
+                                "hours": 1,
+                                "minutes": 26,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Houston",
+                                "terminal": "A",
+                                "code": "IAH",
+                                "name": "George Bush Intercontinental Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T15:04:00.000-05:00",
+                            "arrivalDate": "2024-10-15T16:30:00.000-05:00",
+                            "percentageOnTime": 70,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 3724,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-IAH/NK326/IAH-DFW/NK3724/(2,1)(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 97.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 97.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "NK326LAXIAH10-15-2024-05:4510-15-2024-11:060",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "U",
+                                    "basisCode": "UA14O1",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "NK3724IAHDFW10-15-2024-15:0410-15-2024-16:300",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "P",
+                                    "basisCode": "PA7O1",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 97,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 97,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [
+                        {
+                            "segmentId": "NK326LAXIAH10-15-2024-05:4510-15-2024-11:060",
+                            "connectionTimeMinutes": 238,
+                            "__typename": "FlightLegConnectionInfo"
+                        }
+                    ],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-IAH/NK421/IAH-DFW/NK3724",
+                    "flightTime": {
+                        "hours": 4,
+                        "minutes": 48,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 6,
+                        "minutes": 18,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 1,
+                    "stops": 1,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T08:12:00.000-07:00",
+                    "arrivalDate": "2024-10-15T16:30:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": false,
+                        "outOfPolicyData": [
+                            {
+                                "type": "CONNECTIONS_BLOCKED",
+                                "data": [],
+                                "currency": null,
+                                "__typename": "OutOfPolicyData"
+                            }
+                        ],
+                        "outOfPolicyReasons": [
+                            "CONNECTIONS_BLOCKED"
+                        ],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 97.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 97.39,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1599,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "NK421LAXIAH10-15-2024-08:1210-15-2024-13:340",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 22,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "5",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Houston",
+                                "terminal": "A",
+                                "code": "IAH",
+                                "name": "George Bush Intercontinental Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T08:12:00.000-07:00",
+                            "arrivalDate": "2024-10-15T13:34:00.000-05:00",
+                            "percentageOnTime": 80,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 421,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        },
+                        {
+                            "id": "NK3724IAHDFW10-15-2024-15:0410-15-2024-16:300",
+                            "flightTime": {
+                                "hours": 1,
+                                "minutes": 26,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Houston",
+                                "terminal": "A",
+                                "code": "IAH",
+                                "name": "George Bush Intercontinental Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T15:04:00.000-05:00",
+                            "arrivalDate": "2024-10-15T16:30:00.000-05:00",
+                            "percentageOnTime": 70,
+                            "carrier": {
+                                "id": "NK",
+                                "name": "Spirit Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/NK.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 3724,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": false,
+                            "isSeatSelectable": false,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-IAH/NK421/IAH-DFW/NK3724/(2,1)(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 97.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 97.39,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "NK421LAXIAH10-15-2024-08:1210-15-2024-13:340",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "U",
+                                    "basisCode": "UA14O1",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "NK3724IAHDFW10-15-2024-15:0410-15-2024-16:300",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "P",
+                                    "basisCode": "PA7O1",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 97,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 97,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [
+                        {
+                            "segmentId": "NK421LAXIAH10-15-2024-08:1210-15-2024-13:340",
+                            "connectionTimeMinutes": 90,
+                            "__typename": "FlightLegConnectionInfo"
+                        }
+                    ],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-DFW/F93212",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 10,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 10,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T14:34:00.000-07:00",
+                    "arrivalDate": "2024-10-15T19:44:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 103.98,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 103.98,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "F93212LAXDFW10-15-2024-14:3410-15-2024-19:440",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 10,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "1",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T14:34:00.000-07:00",
+                            "arrivalDate": "2024-10-15T19:44:00.000-05:00",
+                            "percentageOnTime": 0,
+                            "carrier": {
+                                "id": "F9",
+                                "name": "Frontier Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/F9.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/F9.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": null,
+                            "flightNumber": 3212,
+                            "aircraft": {
+                                "code": "32Q",
+                                "name": "Airbus A320-200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": null,
+                            "isPreferredAny": false,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/F93212/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 103.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 103.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "F93212LAXDFW10-15-2024-14:3410-15-2024-19:440",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "G",
+                                    "basisCode": "G21EXS2",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": false,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": true,
+                                "outOfPolicyData": [],
+                                "outOfPolicyReasons": [],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-DFW/AA1669",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 7,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 7,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 1,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T19:00:00.000-07:00",
+                    "arrivalDate": "2024-10-16T00:07:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 119.47,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 119.47,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "AA1669LAXDFW10-15-2024-19:0010-16-2024-00:070",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 7,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "0",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "0",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T19:00:00.000-07:00",
+                            "arrivalDate": "2024-10-16T00:07:00.000-05:00",
+                            "percentageOnTime": 63,
+                            "carrier": {
+                                "id": "AA",
+                                "name": "American Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/AA.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/AA.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "AU",
+                                    "name": "Audio Programming",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "PW",
+                                    "name": "In-seat Power Source",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "WF",
+                                    "name": "Wi-Fi",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "AP",
+                                    "name": "AC Power",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "UP",
+                                    "name": "USB Power",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "AA",
+                                "highlight": true,
+                                "ownerType": "COMPANY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_CORPORATE",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "",
+                                    "color": "",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 1669,
+                            "aircraft": {
+                                "code": "321",
+                                "name": "Airbus A321-100/200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/AA1669/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 119.47,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 119.47,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "AA1669LAXDFW10-15-2024-19:0010-16-2024-00:070",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "O",
+                                    "basisCode": "OVALUNM3",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": false,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": true,
+                                "outOfPolicyData": [],
+                                "outOfPolicyReasons": [],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 119,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 119,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/AA1669/(10,1)",
+                            "tier": {
+                                "id": "UNRESTRICTED",
+                                "name": "Unrestricted",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 174.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 174.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "AA1669LAXDFW10-15-2024-19:0010-16-2024-00:070",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "O",
+                                    "basisCode": "OVALURU3",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": true,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-DFW/DL420",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 0,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 0,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T18:25:00.000-07:00",
+                    "arrivalDate": "2024-10-15T23:25:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 139.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 139.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "DL420LAXDFW10-15-2024-18:2510-15-2024-23:250",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 0,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "3",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T18:25:00.000-07:00",
+                            "arrivalDate": "2024-10-15T23:25:00.000-05:00",
+                            "percentageOnTime": 68,
+                            "carrier": {
+                                "id": "DL",
+                                "name": "Delta Air Lines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/DL.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/DL.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "OD",
+                                    "name": "Entertainment On-Demand",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "TV",
+                                    "name": "Television",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "VP",
+                                    "name": "In-seat Video Player",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "WF",
+                                    "name": "Wi-Fi",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "AP",
+                                    "name": "AC Power",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "UP",
+                                    "name": "USB Power",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "DL",
+                                "highlight": true,
+                                "ownerType": "AGENCY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_TRAVEL_AGENCY",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "GBTAMEXPREFERRED",
+                                    "color": "0000e6",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 420,
+                            "aircraft": {
+                                "code": "319",
+                                "name": "Airbus A319",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "GBTAMEXPREFERRED",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL420/(1,1)",
+                            "tier": {
+                                "id": "UNMODIFIABLE",
+                                "name": "Basic",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 139.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 139.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL420LAXDFW10-15-2024-18:2510-15-2024-23:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "E",
+                                    "basisCode": "TAUNA6BG",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": false,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": true,
+                                "outOfPolicyData": [],
+                                "outOfPolicyReasons": [],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "CHANGE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 99,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 99,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                },
+                                {
+                                    "id": "FLIGHT_RULES_1",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 139,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 139,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL420/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 179.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 179.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL420LAXDFW10-15-2024-18:2510-15-2024-23:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "T",
+                                    "basisCode": "TAUNA6MF",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 179,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 179,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL420/(10,1)",
+                            "tier": {
+                                "id": "UNRESTRICTED",
+                                "name": "Unrestricted",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 219.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 219.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL420LAXDFW10-15-2024-18:2510-15-2024-23:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "T",
+                                    "basisCode": "TA7RH3M4",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": true,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-SFO/UA2019/SFO-DFW/UA1342",
+                    "flightTime": {
+                        "hours": 4,
+                        "minutes": 58,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 5,
+                        "minutes": 58,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 1,
+                    "stops": 1,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T16:01:00.000-07:00",
+                    "arrivalDate": "2024-10-15T23:59:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": false,
+                        "outOfPolicyData": [
+                            {
+                                "type": "CONNECTIONS_BLOCKED",
+                                "data": [],
+                                "currency": null,
+                                "__typename": "OutOfPolicyData"
+                            }
+                        ],
+                        "outOfPolicyReasons": [
+                            "CONNECTIONS_BLOCKED"
+                        ],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 153.98,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 153.98,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1797,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "UA2019LAXSFO10-15-2024-16:0110-15-2024-17:250",
+                            "flightTime": {
+                                "hours": 1,
+                                "minutes": 24,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "7",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "San Francisco",
+                                "terminal": "3",
+                                "code": "SFO",
+                                "name": "San Francisco International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T16:01:00.000-07:00",
+                            "arrivalDate": "2024-10-15T17:25:00.000-07:00",
+                            "percentageOnTime": 80,
+                            "carrier": {
+                                "id": "UA",
+                                "name": "United Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/UA.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/UA.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "UA",
+                                "highlight": true,
+                                "ownerType": "COMPANY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_CORPORATE",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "",
+                                    "color": "",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 2019,
+                            "aircraft": {
+                                "code": "320",
+                                "name": "Airbus A320-100/200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        },
+                        {
+                            "id": "UA1342SFODFW10-15-2024-18:2510-15-2024-23:590",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 34,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "San Francisco",
+                                "terminal": "3",
+                                "code": "SFO",
+                                "name": "San Francisco International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T18:25:00.000-07:00",
+                            "arrivalDate": "2024-10-15T23:59:00.000-05:00",
+                            "percentageOnTime": 70,
+                            "carrier": {
+                                "id": "UA",
+                                "name": "United Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/UA.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/UA.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "NS",
+                                    "name": "Non-Smoking",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "UA",
+                                "highlight": true,
+                                "ownerType": "COMPANY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_CORPORATE",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "",
+                                    "color": "",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 1342,
+                            "aircraft": {
+                                "code": "738",
+                                "name": "Boeing 737-800",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-SFO/UA2019/SFO-DFW/UA1342/(2,1)(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 153.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 153.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "UA2019LAXSFO10-15-2024-16:0110-15-2024-17:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "K",
+                                    "basisCode": "KAK4AWDN",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "UA1342SFODFW10-15-2024-18:2510-15-2024-23:590",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "K",
+                                    "basisCode": "KAK4AWDN",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 153,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 153,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-SFO/UA2019/SFO-DFW/UA1342/(4,1)(4,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES_2",
+                                "name": "Standard Flex",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 702.36,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 702.36,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "UA2019LAXSFO10-15-2024-16:0110-15-2024-17:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "B",
+                                    "basisCode": "WAA0AKIN",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "UA1342SFODFW10-15-2024-18:2510-15-2024-23:590",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "B",
+                                    "basisCode": "WAA7PKIN",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    },
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP",
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 702,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 702,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-SFO/UA2019/SFO-DFW/UA1342/(10,1)(10,1)",
+                            "tier": {
+                                "id": "UNRESTRICTED",
+                                "name": "Unrestricted",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 193.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 193.98,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "UA2019LAXSFO10-15-2024-16:0110-15-2024-17:250",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "K",
+                                    "basisCode": "KAK4AWDM",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                },
+                                {
+                                    "segmentId": "UA1342SFODFW10-15-2024-18:2510-15-2024-23:590",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "K",
+                                    "basisCode": "KAK4AWDM",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": true,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    },
+                                    {
+                                        "type": "CONNECTIONS_BLOCKED",
+                                        "data": [],
+                                        "currency": null,
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP",
+                                    "CONNECTIONS_BLOCKED"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [
+                        {
+                            "segmentId": "UA2019LAXSFO10-15-2024-16:0110-15-2024-17:250",
+                            "connectionTimeMinutes": 60,
+                            "__typename": "FlightLegConnectionInfo"
+                        }
+                    ],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-DFW/DL521",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 7,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 7,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T08:35:00.000-07:00",
+                    "arrivalDate": "2024-10-15T13:42:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 173.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 173.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "DL521LAXDFW10-15-2024-08:3510-15-2024-13:420",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 7,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "3",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "E",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T08:35:00.000-07:00",
+                            "arrivalDate": "2024-10-15T13:42:00.000-05:00",
+                            "percentageOnTime": 52,
+                            "carrier": {
+                                "id": "DL",
+                                "name": "Delta Air Lines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/DL.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/DL.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "OD",
+                                    "name": "Entertainment On-Demand",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "TV",
+                                    "name": "Television",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "VP",
+                                    "name": "In-seat Video Player",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "WF",
+                                    "name": "Wi-Fi",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "AP",
+                                    "name": "AC Power",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "UP",
+                                    "name": "USB Power",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "DL",
+                                "highlight": true,
+                                "ownerType": "AGENCY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_TRAVEL_AGENCY",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "GBTAMEXPREFERRED",
+                                    "color": "0000e6",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 521,
+                            "aircraft": {
+                                "code": "319",
+                                "name": "Airbus A319",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "GBTAMEXPREFERRED",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL521/(1,1)",
+                            "tier": {
+                                "id": "UNMODIFIABLE",
+                                "name": "Basic",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 173.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 173.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL521LAXDFW10-15-2024-08:3510-15-2024-13:420",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "E",
+                                    "basisCode": "UAVOA6BG",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "CHANGE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 99,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 99,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                },
+                                {
+                                    "id": "FLIGHT_RULES_1",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 173,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 173,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL521/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 213.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 213.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL521LAXDFW10-15-2024-08:3510-15-2024-13:420",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "U",
+                                    "basisCode": "UAVOA6MF",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 213,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 213,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/DL521/(10,1)",
+                            "tier": {
+                                "id": "UNRESTRICTED",
+                                "name": "Unrestricted",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 253.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 253.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "DL521LAXDFW10-15-2024-08:3510-15-2024-13:420",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "U",
+                                    "basisCode": "UAVZA6M4",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": true,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                },
+                {
+                    "legId": "15/LAX-DFW/AA1504",
+                    "flightTime": {
+                        "hours": 3,
+                        "minutes": 5,
+                        "__typename": "TravelTime"
+                    },
+                    "totalTime": {
+                        "hours": 3,
+                        "minutes": 5,
+                        "__typename": "TravelTime"
+                    },
+                    "daysInBetween": 0,
+                    "flightStops": 0,
+                    "stops": 0,
+                    "origin": "LAX",
+                    "destination": "DFW",
+                    "departureDate": "2024-10-15T16:45:00.000-07:00",
+                    "arrivalDate": "2024-10-15T21:50:00.000-05:00",
+                    "policy": {
+                        "isInPolicy": true,
+                        "outOfPolicyData": [],
+                        "outOfPolicyReasons": [],
+                        "__typename": "Policy"
+                    },
+                    "rate": {
+                        "primary": {
+                            "amount": 174.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "secondary": {
+                            "amount": 174.48,
+                            "currency": "USD",
+                            "__typename": "Money"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "distance": {
+                        "value": 1231,
+                        "units": "MI",
+                        "__typename": "Distance"
+                    },
+                    "segments": [
+                        {
+                            "id": "AA1504LAXDFW10-15-2024-16:4510-15-2024-21:500",
+                            "flightTime": {
+                                "hours": 3,
+                                "minutes": 5,
+                                "__typename": "TravelTime"
+                            },
+                            "origin": {
+                                "city": "Los Angeles",
+                                "terminal": "0",
+                                "code": "LAX",
+                                "name": "Los Angeles International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "destination": {
+                                "city": "Dallas",
+                                "terminal": "0",
+                                "code": "DFW",
+                                "name": "Dallas International Airport",
+                                "__typename": "FlightLegSubSegmentAirport"
+                            },
+                            "departureDate": "2024-10-15T16:45:00.000-07:00",
+                            "arrivalDate": "2024-10-15T21:50:00.000-05:00",
+                            "percentageOnTime": 63,
+                            "carrier": {
+                                "id": "AA",
+                                "name": "American Airlines",
+                                "imageUrl": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                                "logoImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/AA.png?_a=BAMADKTC0",
+                                "logoRectangleImageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Rectangle/AA.png?_a=BAMADKTC0",
+                                "__typename": "FlightCarrier"
+                            },
+                            "amenities": [
+                                {
+                                    "id": "AU",
+                                    "name": "Audio Programming",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "PW",
+                                    "name": "In-seat Power Source",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "WF",
+                                    "name": "Wi-Fi",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "AP",
+                                    "name": "AC Power",
+                                    "__typename": "FlightAmenity"
+                                },
+                                {
+                                    "id": "UP",
+                                    "name": "USB Power",
+                                    "__typename": "FlightAmenity"
+                                }
+                            ],
+                            "preference": {
+                                "code": "AA",
+                                "highlight": true,
+                                "ownerType": "COMPANY",
+                                "ownerName": "AIRLINE_PREFERENCE_OWNER_TYPE_CORPORATE",
+                                "tooltipText": null,
+                                "customBadge": {
+                                    "name": "",
+                                    "color": "",
+                                    "__typename": "CustomBadge"
+                                },
+                                "__typename": "Preference"
+                            },
+                            "flightNumber": 1504,
+                            "aircraft": {
+                                "code": "321",
+                                "name": "Airbus A321-100/200",
+                                "__typename": "FlightLegSegmentAircraft"
+                            },
+                            "codeshareCarrier": {
+                                "name": "",
+                                "code": "",
+                                "__typename": "CodeshareCarrier"
+                            },
+                            "isSeatMapAvailable": true,
+                            "isSeatSelectable": true,
+                            "preferredBadgeText": "",
+                            "isPreferredAny": true,
+                            "isDepartAirportDifferentFromConnecting": null,
+                            "isInstantPurchaseCarrier": null,
+                            "__typename": "SearchFlightLegSubSegment"
+                        }
+                    ],
+                    "fares": [
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/AA1504/(2,1)",
+                            "tier": {
+                                "id": "RESTRICTED_EXPECT_FEES",
+                                "name": "Standard",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 174.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 174.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "AA1504LAXDFW10-15-2024-16:4510-15-2024-21:500",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "Q",
+                                    "basisCode": "QUALYNM3",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Restricted",
+                            "isRefundable": false,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [
+                                {
+                                    "id": "FLIGHT_RULES_0",
+                                    "type": "NON_REFUNDABLE",
+                                    "rulesAndRestriction": [],
+                                    "penaltyFee": [
+                                        {
+                                            "primary": {
+                                                "amount": 174,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "secondary": {
+                                                "amount": 174,
+                                                "currency": "USD",
+                                                "__typename": "Money"
+                                            },
+                                            "__typename": "Rate"
+                                        }
+                                    ],
+                                    "__typename": "FlightFareRulesAndRestrictions"
+                                }
+                            ],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        },
+                        {
+                            "tripId": "FSS1>k8v6GYtbWuMRo9qI8kSu/zGEsjWH+yoY+OYH8uGcXWE=>15/LAX-DFW/AA1504/(10,1)",
+                            "tier": {
+                                "id": "UNRESTRICTED",
+                                "name": "Unrestricted",
+                                "__typename": "FlightFareTier"
+                            },
+                            "total": {
+                                "primary": {
+                                    "amount": 229.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "secondary": {
+                                    "amount": 229.48,
+                                    "currency": "USD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "Rate"
+                            },
+                            "segments": [
+                                {
+                                    "segmentId": "AA1504LAXDFW10-15-2024-16:4510-15-2024-21:500",
+                                    "serviceClass": "COACH",
+                                    "bookingCode": "Q",
+                                    "basisCode": "QUALYRU3",
+                                    "privateCode": "",
+                                    "displayServiceClass": "Coach",
+                                    "__typename": "FlightFareSegment"
+                                }
+                            ],
+                            "restriction": "Unrestricted",
+                            "isRefundable": true,
+                            "isWebFare": false,
+                            "showOutOfPolicy": true,
+                            "isNDCFare": false,
+                            "providerAttributesStr": null,
+                            "policy": {
+                                "isInPolicy": false,
+                                "outOfPolicyData": [
+                                    {
+                                        "type": "DIFF_IN_FEE_CAP",
+                                        "data": [
+                                            "153.99"
+                                        ],
+                                        "currency": [
+                                            "USD"
+                                        ],
+                                        "__typename": "OutOfPolicyData"
+                                    }
+                                ],
+                                "outOfPolicyReasons": [
+                                    "DIFF_IN_FEE_CAP"
+                                ],
+                                "__typename": "Policy"
+                            },
+                            "rulesAndRestrictions": [],
+                            "isSelectable": true,
+                            "isUnusedTicketApplicable": false,
+                            "fareLabel": null,
+                            "unusedTickets": {
+                                "min": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "max": {
+                                    "primary": {
+                                        "amount": 0,
+                                        "currency": "",
+                                        "__typename": "Money"
+                                    },
+                                    "secondary": null,
+                                    "__typename": "Rate"
+                                },
+                                "unusedTicket": null,
+                                "__typename": "SearchUnusedTickets"
+                            },
+                            "__typename": "FlightFare"
+                        }
+                    ],
+                    "connectionInfo": [],
+                    "hasTechnicalStop": false,
+                    "isSelectable": true,
+                    "isUnusedTicketApplicable": false,
+                    "__typename": "SearchFlightLeg"
+                }
+            ],
+            "messages": null,
+            "filters": {
+                "airlines": [
+                    {
+                        "id": "C-AA",
+                        "value": "AA",
+                        "name": "American Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/AA.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-UA",
+                        "value": "UA",
+                        "name": "United Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/UA.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-AS",
+                        "value": "AS",
+                        "name": "Alaska Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/AS.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-F9",
+                        "value": "F9",
+                        "name": "Frontier Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/F9.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-B6",
+                        "value": "B6",
+                        "name": "JetBlue",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/B6.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-DL",
+                        "value": "DL",
+                        "name": "Delta Air Lines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/DL.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-NK",
+                        "value": "NK",
+                        "name": "Spirit Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/NK.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    },
+                    {
+                        "id": "C-WN",
+                        "value": "WN",
+                        "name": "Southwest Airlines",
+                        "imageUrl": "https://res.cloudinary.com/dm0zqj0n2/image/upload/v1/Logos/Airlines/IATA/Square/WN.png?_a=BAMADKTC0",
+                        "__typename": "AirlineFilter"
+                    }
+                ],
+                "airport": [
+                    {
+                        "id": "A0",
+                        "origin": {
+                            "code": "SNA",
+                            "name": "John Wayne International Airport",
+                            "city": "Santa Ana",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DFW",
+                            "name": "Dallas International Airport",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A1",
+                        "origin": {
+                            "code": "ONT",
+                            "name": "Ontario International Airport",
+                            "city": "Ontario",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DFW",
+                            "name": "Dallas International Airport",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A2",
+                        "origin": {
+                            "code": "LAX",
+                            "name": "Los Angeles International Airport",
+                            "city": "Los Angeles",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DFW",
+                            "name": "Dallas International Airport",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A3",
+                        "origin": {
+                            "code": "BUR",
+                            "name": "Burbank Airport",
+                            "city": "Burbank",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DFW",
+                            "name": "Dallas International Airport",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A4",
+                        "origin": {
+                            "code": "LGB",
+                            "name": "Long Beach Municipal Airport",
+                            "city": "Long Beach",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DFW",
+                            "name": "Dallas International Airport",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A5",
+                        "origin": {
+                            "code": "LAX",
+                            "name": "Los Angeles International Airport",
+                            "city": "Los Angeles",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DAL",
+                            "name": "Love Field",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A6",
+                        "origin": {
+                            "code": "BUR",
+                            "name": "Burbank Airport",
+                            "city": "Burbank",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DAL",
+                            "name": "Love Field",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A7",
+                        "origin": {
+                            "code": "LGB",
+                            "name": "Long Beach Municipal Airport",
+                            "city": "Long Beach",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DAL",
+                            "name": "Love Field",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A8",
+                        "origin": {
+                            "code": "ONT",
+                            "name": "Ontario International Airport",
+                            "city": "Ontario",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DAL",
+                            "name": "Love Field",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    },
+                    {
+                        "id": "A9",
+                        "origin": {
+                            "code": "SNA",
+                            "name": "John Wayne International Airport",
+                            "city": "Santa Ana",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "destination": {
+                            "code": "DAL",
+                            "name": "Love Field",
+                            "city": "Dallas",
+                            "__typename": "AirportFilterAirport"
+                        },
+                        "__typename": "AirportFilter"
+                    }
+                ],
+                "stops": [
+                    {
+                        "id": "S-0",
+                        "value": "1",
+                        "isSelected": false,
+                        "__typename": "StopsFilter"
+                    },
+                    {
+                        "id": "S-1",
+                        "value": "0",
+                        "isSelected": false,
+                        "__typename": "StopsFilter"
+                    },
+                    {
+                        "id": "S-2",
+                        "value": "2",
+                        "isSelected": false,
+                        "__typename": "StopsFilter"
+                    }
+                ],
+                "fareTier": [
+                    {
+                        "id": 20,
+                        "value": "RESTRICTED_EXPECT_FEES",
+                        "displayName": "Standard",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 40,
+                        "value": "UNRESTRICTED",
+                        "displayName": "Unrestricted",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 21,
+                        "value": "RESTRICTED_EXPECT_FEES_2",
+                        "displayName": "Standard Flex",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 10,
+                        "value": "UNMODIFIABLE",
+                        "displayName": "Basic",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 22,
+                        "value": "RESTRICTED_EXPECT_FEES_3",
+                        "displayName": "Standard Plus",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 30,
+                        "value": "RESTRICTED",
+                        "displayName": "Refundable",
+                        "__typename": "FareTierFilter"
+                    },
+                    {
+                        "id": 31,
+                        "value": "RESTRICTED_2",
+                        "displayName": "Refundable Plus",
+                        "__typename": "FareTierFilter"
+                    }
+                ],
+                "originTimeRange": {
+                    "start": "2024-10-15T00:45:00.000-07:00",
+                    "end": "2024-10-15T23:59:00.000-07:00",
+                    "__typename": "TimeFilter"
+                },
+                "destinationTime": {
+                    "start": "2024-10-15T05:55:00.000-05:00",
+                    "end": "2024-10-16T12:15:00.000-05:00",
+                    "__typename": "TimeFilter"
+                },
+                "__typename": "FlightsFilters"
+            },
+            "isDsmEnabled": false,
+            "__typename": "FlightsResult"
+        }
+    }
+}

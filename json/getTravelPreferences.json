@@ -1,0 +1,496 @@
+{
+    "data": {
+        "travelPreferences": {
+            "flight": {
+                "homeAirport": "HYD",
+                "homeAirportLabel": "Rajiv Gandhi International Airport",
+                "meal": {
+                    "label": "Bland",
+                    "value": "BLML",
+                    "__typename": "PreferenceOptions"
+                },
+                "specialRequest": [
+                    {
+                        "label": "Visually impaired traveler",
+                        "value": "BLND",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Deaf/Hard of Hearing",
+                        "value": "DEAF",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Wheelchair - can ascend and descend stairs",
+                        "value": "WCHR",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "loyaltyProgram": [
+                    {
+                        "vendorCode": "AA",
+                        "label": "American Airlines",
+                        "number": "24893593535",
+                        "imgUrl": "https://clustera-stage3.qarcobjs.com/static/core/img/travel/logos/air/aa.gif",
+                        "__typename": "LoyaltyProgram"
+                    }
+                ],
+                "mealOptions": [
+                    {
+                        "label": "All Other Special",
+                        "value": "SPML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Asian vegetarian",
+                        "value": "AVML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Bland",
+                        "value": "BLML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Child",
+                        "value": "CHML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Child Chicken",
+                        "value": "CHKN",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Diabetic",
+                        "value": "DBML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Fruit plate",
+                        "value": "FPML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Gluten free",
+                        "value": "GFML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hamburger",
+                        "value": "GAHB",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Heart Healthy",
+                        "value": "AHML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "High fiber",
+                        "value": "HFML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hindu",
+                        "value": "HNML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Indian Vegetarian",
+                        "value": "INDN",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Infant",
+                        "value": "BBML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Jain Meal",
+                        "value": "JNML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Kosher",
+                        "value": "KSML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Lactose-Free",
+                        "value": "LACT",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low calorie",
+                        "value": "LCML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low carbohydrate",
+                        "value": "LCRB",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low fat",
+                        "value": "LFML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low protein",
+                        "value": "LPML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low purin",
+                        "value": "PRML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Low sodium",
+                        "value": "LSML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Muslim",
+                        "value": "MOML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "No In-flight",
+                        "value": "NOML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "No Salt",
+                        "value": "NSML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Non Vegetarian",
+                        "value": "NVML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Non-lactose",
+                        "value": "NLML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Oriental asian",
+                        "value": "ORML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Others",
+                        "value": "OTHS",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Peanut free",
+                        "value": "PFML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Raw vegetarian",
+                        "value": "RVML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Salt-Free",
+                        "value": "NSAT",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Seafood",
+                        "value": "SFML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Standard",
+                        "value": "standard",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Vegetarian",
+                        "value": "VGML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Vegetarian Jain",
+                        "value": "VJML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Vegetarian lacto-ovo",
+                        "value": "VLML",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Vegetarian Oriental",
+                        "value": "VOML",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "specialRequestOptions": [
+                    {
+                        "label": "Visually impaired traveler",
+                        "value": "BLND",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Deaf/Hard of Hearing",
+                        "value": "DEAF",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Wheelchair - can ascend and descend stairs",
+                        "value": "WCHR",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Wheelchair - cannot ascend or descend stairs",
+                        "value": "WCHS",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Wheelchair - manual",
+                        "value": "WCMP",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Wheelchair - must be carried",
+                        "value": "WCHC",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "searchBy": null,
+                "seatPreference": "WINDOW",
+                "redressNumber": null,
+                "redressNumberIssuingCountry": "US",
+                "resultsView": "SEGMENT",
+                "knownTravelerNumber": null,
+                "knownTravelerIssuingCountry": "US",
+                "noteToArranger": "",
+                "__typename": "AirTravelPreference"
+            },
+            "hotel": {
+                "specialRequest": [
+                    {
+                        "label": "Twin beds",
+                        "value": "TWIN",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Away from elevator",
+                        "value": "no elevator",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "loyaltyProgram": [],
+                "specialRequestOptions": [
+                    {
+                        "label": "Away from elevator",
+                        "value": "no elevator",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Away from ice machine",
+                        "value": "no ice",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Disabled accessible",
+                        "value": "accessible",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Extra Pillows",
+                        "value": "extraPillows",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Extra Towels",
+                        "value": "extraTowels",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Higher floor room",
+                        "value": "high",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hypoallergenic bedding",
+                        "value": "hypoAllergenic bedding",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "King bed",
+                        "value": "KING",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Lower floor room",
+                        "value": "low",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Murphy bed",
+                        "value": "MU",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Non-smoking room",
+                        "value": "non-smoking",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Queen bed",
+                        "value": "QUEEN",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Smoking room",
+                        "value": "smoking",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Sofa bed",
+                        "value": "SO",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Tatami mats",
+                        "value": "TA",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Twin beds",
+                        "value": "TWIN",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "hotelAmenity": [],
+                "__typename": "HotelPreference"
+            },
+            "carrental": {
+                "specialRequest": [
+                    {
+                        "label": "Automatic door locks",
+                        "value": "ADL",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Cruise Control",
+                        "value": "CCL",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Child Seat/Infant",
+                        "value": "CSI",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "loyaltyProgram": [
+                    {
+                        "vendorCode": "ZD",
+                        "label": "Budget",
+                        "number": "5363738828",
+                        "imgUrl": "https://clustera-stage3.qarcobjs.com/static/core/img/travel/logos/car/zd.gif",
+                        "__typename": "LoyaltyProgram"
+                    }
+                ],
+                "specialRequestOptions": [
+                    {
+                        "label": "Automatic door locks",
+                        "value": "ADL",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Mobile Phone",
+                        "value": "PHN",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Child Seat/Toddler",
+                        "value": "CST",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Cruise Control",
+                        "value": "CCL",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Flat folding 3rd seat",
+                        "value": "FLT 3RD SEAT",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hand controls-left",
+                        "value": "HCL",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hand controls-right",
+                        "value": "HCR",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Hatchback",
+                        "value": "HCH",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Child Seat/Infant",
+                        "value": "CSI",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Luggage Rack",
+                        "value": "LUG",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Navigational system",
+                        "value": "NAV",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "No smoking car",
+                        "value": "NSK",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Satellite radio",
+                        "value": "CSR",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Ski Rack Only",
+                        "value": "SKI",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Smoking car",
+                        "value": "SMKG CAR",
+                        "__typename": "PreferenceOptions"
+                    },
+                    {
+                        "label": "Snow Chains",
+                        "value": "SNO",
+                        "__typename": "PreferenceOptions"
+                    }
+                ],
+                "carClass": "ECONOMY",
+                "__typename": "CarRentalPreference"
+            },
+            "rail": {
+                "specialRequest": [],
+                "loyaltyProgram": [],
+                "__typename": "RailPreference"
+            },
+            "__typename": "TravelPreferences"
+        }
+    }
+}

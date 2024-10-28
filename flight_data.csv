@@ -1,0 +1,7 @@
+id,legId,flightTimeHours,flightTimeMinutes,totalTimeHours,totalTimeMinutes,daysInBetween,flightStops,stops,origin,destination,departureDate,arrivalDate,distanceValue,distanceUnits,isSelectable,hasTechnicalStop,travel_preference_id,match_preferences,mealPreference,loyaltyProgram,seatPreference,travelDates
+1,15/LAX-DFW/NK3710,3,8,3,8,1,0,0,LAX,DFW,2024-10-16 11:52:00,2024-10-16 14:52:00,1231,MI,1,0,,True,Vegetarian,None,Window,2024-10-16
+2,15/LAX-DFW/DL3711,3,8,3,8,1,0,1,LAX,DFW,2024-10-16 12:00:00,2024-10-16 16:00:00,1231,MI,1,0,,True,Non-Vegetarian,Gold,Aisle,2024-10-17
+3,15/LAX-DFW/WN3712,3,10,3,10,1,0,0,LAX,DFW,2024-10-16 14:00:00,2024-10-16 17:10:00,1231,MI,1,0,,True,Vegan,Silver,Exit Row,2024-10-18
+4,15/LAX-DFW/AS3713,3,5,3,5,1,0,0,LAX,DFW,2024-10-17 18:00:00,2024-10-17 21:05:00,1231,MI,1,0,,True,Vegetarian,None,Window,2024-10-19
+5,15/LAX-DFW/UA3714,3,15,3,15,1,0,0,LAX,DFW,2024-10-18 20:00:00,2024-10-18 23:15:00,1231,MI,1,0,,True,Non-Vegetarian,Gold,Aisle,2024-10-20
+31,15/LAX-DFW/UA3715,3,15,3,15,1,0,2,LAX,DFW,2024-10-18 21:00:00,2024-10-19 03:15:00,1231,MI,1,0,,True,Vegan,Silver,Exit Row,2024-10-18

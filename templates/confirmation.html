@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Confirmation</title>
+</head>
+<body>
+    <h1>Flight Confirmation</h1>
+    <h2>Selected Flight</h2>
+    <p>Flight Number: {{ flight['id'] }}</p>
+    <p>From: {{ flight['origin'] }}</p>
+    <p>To: {{ flight['destination'] }}</p>
+    <p>Departure: {{ flight['departureDate'] }}</p>
+    <p>Arrival: {{ flight['arrivalDate'] }}</p>
+    <p>Airline: {{ flight['airline_name'] }}</p>
+    <p>Duration: {{ flight['totalTimeHours'] }}h {{ flight['totalTimeMinutes'] }}m</p>
+    <img src="{{ flight['image_url'] }}" alt="{{ flight['airline_name'] }} Logo"/>
+
+    <!-- Add any further confirmation steps -->
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+    "data": {
+        "displayConfiguration": {
+            "isAdminRoleEnabled": false,
+            "isMod2FlowEnabled": false,
+            "isFlightSearchServiceEnabled": true,
+            "areRecommendationsEnabled": false,
+            "isPhoenixHotelSearchEnabled": true,
+            "isPhoenixCarRentalSearchEnabled": false,
+            "maxNumberOfGuestsPerRoom": 3,
+            "isTripAdvisorReviewsEnabled": true,
+            "mapProvider": "GoogleMaps",
+            "isPerDiemDisplayEnabled": true,
+            "isStarRatingsFilterEnabled": true,
+            "isHoldTripAllowed": true,
+            "isSoldOutFilterAvailable": true,
+            "isPreBookCostAllocationEnabled": false,
+            "isShowTravelerAcknowledgement": true,
+            "isExcludeBasicFareBlock": false,
+            "isSouthwestDirectConnectionEnabled": true,
+            "isExpiringCreditCardForHotelAllowed": false,
+            "isCreditCardSavingEnabled": true,
+            "isAppleLockSettingsEnabled": false,
+            "appleDsmMessage": "This is Apple enabled site. Please contact your admin to update profile information.",
+            "enableNearByAirport": false,
+            "bookAndChangeAdvanceTime": -9,
+            "selfDelegation": true,
+            "userDelegation": true,
+            "explore": {
+                "messages": [],
+                "message": null,
+                "isFlightsSearchEnabled": true,
+                "isHotelsSearchEnabled": true,
+                "isTrainsSearchEnabled": true,
+                "isCarRentalsSearchEnabled": true,
+                "searchDefaultsAirEnabled": true,
+                "searchDefaultsHotelEnabled": true,
+                "searchDefaultsCarEnabled": false,
+                "__typename": "ExploreDisplayConfiguration"
+            },
+            "flights": {
+                "defaultSort": "COST",
+                "areNearbyAirportsIncluded": false,
+                "isMorningAfternoonEveningEnabled": true,
+                "isAnytimeEnabled": true,
+                "isDefaultAnyTime": true,
+                "isFirstClassEnabled": true,
+                "isBusinessClassEnabled": true,
+                "isPremiumEconomyClassEnabled": true,
+                "isEconomyClassEnabled": true,
+                "firstClassCustomLabel": "",
+                "businessClassCustomLabel": "",
+                "premiumEconomyClassCustomLabel": "",
+                "economyClassCustomLabel": "",
+                "fares": {
+                    "defaultFareType": "NO_RESTRICTIONS",
+                    "areRefundableEnabled": true,
+                    "areUnrestrictedEnabled": true,
+                    "__typename": "FaresFlightsDisplayConfiguration"
+                },
+                "defaultAirTravelType": "RoundTrip",
+                "isOutOfPolicyFlightsSelectable": true,
+                "__typename": "FlightsDisplayConfiguration"
+            },
+            "carRentals": {
+                "areDeliveryAndCollectionSupported": false,
+                "requireCarPaymentForm": false,
+                "__typename": "CarRentalsDisplayConfiguration"
+            },
+            "hotels": {
+                "isStarRatingEnabled": false,
+                "__typename": "HotelDisplayConfiguration"
+            },
+            "geosureReport": {
+                "enabled": true,
+                "variant": "iframe",
+                "__typename": "GeosureReport"
+            },
+            "optinoutOfUnusedTicket": true,
+            "flightSearchTimeRange": {
+                "before": 120,
+                "after": 120,
+                "__typename": "FlightSearchTimeRange"
+            },
+            "flightSearchTimeRangeNonUS": {
+                "before": 120,
+                "after": 120,
+                "__typename": "FlightSearchTimeRange"
+            },
+            "hotelSearchRadius": {
+                "default": 15,
+                "max": 15,
+                "__typename": "HotelSearchRadius"
+            },
+            "privacyPolicy": {
+                "url": "http://www.carnival.com/legal/policy.php",
+                "label": "Custom Partner Privacy Policies EF",
+                "__typename": "PrivacyPolicyConfiguration"
+            },
+            "support": {
+                "mobile": {
+                    "email": {
+                        "emailAddress": "wgalusza@deem.com",
+                        "label": null,
+                        "__typename": "EmailSupport"
+                    },
+                    "phoneNumbers": [
+                        {
+                            "phoneNumber": "12345",
+                            "label": "Testing Wiga",
+                            "__typename": "PhoneSupport"
+                        }
+                    ],
+                    "__typename": "MobileSupportDisplayConfiguration"
+                },
+                "desktop": {
+                    "email": "supportnewdeem@deem.com",
+                    "__typename": "DesktopSupportDisplayConfiguration"
+                },
+                "technicalSupport": {
+                    "isEnabled": true,
+                    "text": "<P><br>\r\n<font color=\"black\">\r\n<TABLE width=\"90%\" border=0>\r\n\r\n<TR>\r\n<TD>\r\n<P><SPAN>&nbsp;For travel support or technical issues related to this site, please call World Travel Inc. 800-221-4730 between 8:00AM and 8:00PM EST Monday - Friday or email <A href=\"mailto:onlinehelp@worldtravelinc.com\"><font color=\"#0099cc\" style=\"TEXT-DECORATION: none\">onlinehelp@worldtravelinc.com</font></a>. \r\n<br><br>\r\nFor after hours travel support between 5:30PM and 8:00AM EST, please call 800-341-2014.\r\n<br><br>\r\nPlease be advised that airfares are not guaranteed until ticketed. \r\n<br><br>\r\nFor feedback or additional support, contact <A href=\"mailto:onlinehelp@worldtravelinc.com\"><font color=\"#0099cc\" style=\"TEXT-DECORATION: none\">onlinehelp@worldtravelinc.com</font></a> </SPAN></P>\r\n<P><SPAN><FONT color=#ff0000>If traveling in less than 12 hours, please call World Travel Inc. at 800-341-2014.</FONT></SPAN></P></TD></TR></TABLE></font></P>\r\n</P></FONT>\r\n<br>\r\n<a href=\"https://www.test.com\">New Deem</a>",
+                    "__typename": "TechnicalSupportDisplayConfiguration"
+                },
+                "__typename": "SupportDisplayConfiguration"
+            },
+            "hideUnusedTickets": false,
+            "defaultCarSize": "I",
+            "isMod2DoubleWriteEnabled": false,
+            "externalLinks": {
+                "isExternalLinksEnabled": true,
+                "links": [
+                    {
+                        "url": "https://new-deem.document360.io/",
+                        "label": "Custom Link",
+                        "__typename": "ExternalLink"
+                    }
+                ],
+                "__typename": "ExternalLinks"
+            },
+            "companyResourceConfiguration": {
+                "id": 0,
+                "descriptionMessage": null,
+                "resourceTexts": [
+                    {
+                        "label": "Eli google",
+                        "url": "https://www.google.com/",
+                        "__typename": "CompanyResourceText"
+                    },
+                    {
+                        "label": "Eli New Deem",
+                        "url": "https://pmtesting.deemstage3.com/app/login",
+                        "__typename": "CompanyResourceText"
+                    },
+                    {
+                        "label": "Help Center",
+                        "url": "https://new-deem.document360.io/",
+                        "__typename": "CompanyResourceText"
+                    }
+                ],
+                "__typename": "CompanyResourceConfiguration"
+            },
+            "serviceFeeConfiguration": [],
+            "__typename": "DisplayConfiguration"
+        }
+    }
+}

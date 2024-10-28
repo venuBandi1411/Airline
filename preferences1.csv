@@ -1,0 +1,4 @@
+flight_id	mealPreference	loyaltyProgram	seatPreference	travelDates	flightDuration	airline	classOfService	inFlightAmenities	airport	travelCompanions	specialRequests	companyPolicy	personalPreferences
+1	Vegetarian	None	Window	2023-02-15	Non-stop	American Airlines	Economy	AU, PW, WF	JFK	1, John Smith	Extra Baggage	Expedia	Seat near the front
+2	Non-Vegetarian	Gold	Aisle	2023-03-01	1-stop	Delta Air Lines	Business	AP, UP	LAX	2, Jane Doe	Wheelchair Accessibility	American Express	Vegetarian meal
+3	Vegan	Silver	Exit Row	2023-04-10	2-stop	United Airlines	First Class	AU, WF, PW	ORD	0	Medical Equipment	$1000	In-flight entertainment with movies
